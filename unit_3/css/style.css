@@ -18,3 +18,8 @@ h1 {
 #slogan {
 	font-style: italic;
 }
+
+ul {
+    text-align: center;
+    list-style-type: none;
+}
