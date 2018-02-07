@@ -1,9 +1,11 @@
-body {
-  text-align: center;
-  background-image: url("http://i.imgur.com/q0FaaAk.jpg");
-  background-size: cover;
-  color: #fff;
-  font-family: Vortice;
+p {
+    text-align: center;
+    background-image: url("http://i.imgur.com/q0FaaAk.jpg");
+    background-size: cover;
+    color: #fff;
+    font-family: Vortice;
+ 
+ 
 }
 
 h1 {
@@ -15,6 +17,7 @@ h1 {
 
 }
 #slogan {
+	text-align: center;
 	font-style: italic;
 	font-weight: bold;
 	font-weight: 28
