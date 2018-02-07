@@ -1,6 +1,7 @@
+body {background-image: url("http://i.imgur.com/q0FaaAk.jpg");}
+
 p {
     text-align: center;
-    background-image: url("http://i.imgur.com/q0FaaAk.jpg");
     background-size: cover;
     color: #fff;
     font-family: Helvetica;
@@ -12,7 +13,6 @@ h1 {
 	color: #fff;
 	font-weight: bold;
 	font-weight: 48
-    font-family: Vortice;
 
 }
 #slogan {
