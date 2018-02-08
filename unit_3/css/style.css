@@ -14,3 +14,7 @@ body {
 p {
 	font-size: 22
 }
+ul {
+    text-align: center;
+    list-style-type: none;
+}
