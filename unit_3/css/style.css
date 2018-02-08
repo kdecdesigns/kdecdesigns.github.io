@@ -9,12 +9,5 @@ body {
 #slogan {
 	font-style: italic;
 	font-weight: bold;
-	font-weight: 28
-
-}
-
-ul {
-    text-align: center;
-    color: #fff;
-    list-style-type: none;
+	font-size: 48
 }
