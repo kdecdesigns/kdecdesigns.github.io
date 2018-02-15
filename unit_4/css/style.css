@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=VT323');
+body {
+  text-align: center;
+  background: url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
+  background-size: cover;
+  color: #fff;
+  font-family: Helvetica;
+}
+
+#slogan {
+	font-family: 'VT323', monospace;
+  font-style: italic;
+	font-weight: bold;
+	font-size: 72
+}
+p {
+	font-size: 22
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
