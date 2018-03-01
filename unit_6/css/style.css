@@ -1,0 +1,20 @@
+body {
+  text-align: center;
+  background: url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
+  background-size: cover;
+  color: #fff;
+  font-family: Helvetica;
+}
+
+#slogan {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 48
+}
+p {
+	font-size: 22
+}
+ul {
+    text-align: center;
+    list-style-type: none;
+}
