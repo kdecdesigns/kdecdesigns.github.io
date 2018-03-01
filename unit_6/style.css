@@ -1,35 +1,91 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>ELK Web Design</title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
+body {
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+}
 
-  <body>
-    <header>
-      <h1>ELK Web Design</h1>
-      <div id="hero">
-      <img src="http://i.imgur.com/pdsjjxD.jpg">
-      </div>
-    </header>
-<section>
-    <div id="about">
-      <h2>Who we are</h2>
-      <p>Elk provides clean and innovative sites for small businesses, artists, and professionals.</p>
-    </div>
+h1,h2 {
+  text-transform: uppercase;
+  border-bottom: 4px solid black;
+  display: inline-block;
+  font-weight: 800;
+} 
 
-    <div id="services">
-     <h2>how we do it</h2>
-     <ul>
-       <li>HTML</li>
-       <li>CSS</li>
-       <li>Responsive</li>
-       <li>Visual Design</li>
-     </ul>
-    </div>
-  </section>
+h1 {
+  font-size: 2em;
+}
 
-    <footer>© 2014 ELK</footer>
-  </body>
+h2 {
+  font-size: 1.5em;
+  padding: .8em 0;
+  color: #fffebb;
+  border-bottom-color: #fffebb;
+}
 
-</html>
+img {
+  display: block;
+  margin: 0 auto;
+  width: 480px;
+} 
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  float: left;
+  width: 50%;
+  height: 6em;
+  outline: 3px solid #222;
+  text-align: center;
+  line-height: 6em;
+  color: #000;
+  background: #fff;
+}
+
+nav {
+  font-size: 1.8em;
+  float: right;
+} 
+
+nav a { 
+  text-decoration: none;
+  color: black;
+  margin: 1.8em;
+  display: inline-block;
+}
+
+
+div {
+  font-size: 1.2em;
+  width: 46%;
+  padding: 2%;
+  display: inline-block;
+}
+
+section {
+  background: #222;
+  color: #fff;
+  overflow: auto;
+}
+
+#hero {
+  display: block;
+  width: 100%;
+  margin: 0;
+  background: #fffebb;
+} 
+#about {
+  float: left;
+}
+
+#services {
+  float: right;
+} 
+
+footer {
+  text-align: center;
+  padding: 1em 0;
+  clear: both;
+}
