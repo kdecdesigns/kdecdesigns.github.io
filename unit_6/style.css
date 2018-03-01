@@ -1,51 +1,35 @@
-@import url('https://fonts.googleapis.com/css?family=VT323');
-body {
-  text-align: center;
-  background: url("https://static.pexels.com/photos/132650/pexels-photo-132650.jpeg");
-  background-size: cover;
-  color: #fff;
-  font-family: Helvetica;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ELK Web Design</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-#two_column {
-    background-color: #FFB7CF;
-    border: 1px black solid;
-    padding: 20px;
-}
+  <body>
+    <header>
+      <h1>ELK Web Design</h1>
+      <div id="hero">
+      <img src="http://i.imgur.com/pdsjjxD.jpg">
+      </div>
+    </header>
+<section>
+    <div id="about">
+      <h2>Who we are</h2>
+      <p>Elk provides clean and innovative sites for small businesses, artists, and professionals.</p>
+    </div>
 
-#left {
-    background-color: violet;
-    border: 1px black solid;
-    padding: 20px;
-    float: left;
-    width: 30%;
-}
+    <div id="services">
+     <h2>how we do it</h2>
+     <ul>
+       <li>HTML</li>
+       <li>CSS</li>
+       <li>Responsive</li>
+       <li>Visual Design</li>
+     </ul>
+    </div>
+  </section>
 
-#right {
-    background-color: pink;
-    border: 1px black solid;
-    padding: 20px;
-    float: right;   
-    width: 62%;}
+    <footer>© 2014 ELK</footer>
+  </body>
 
-#slogan {
-	font-family: 'VT323', monospace;
-	font-size: 72 px;
-}
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: " ";
-    clear: both;
-    height: 0;
-}
-
-p {
-	font-size: 22 px;
-}
-ul {
-    text-align: center;
-    list-style-type: none;
-}
+</html>
